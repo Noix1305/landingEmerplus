@@ -1,0 +1,57 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.info {
+    color: #555;
+}
+
+.btn-download {
+    margin-top: 20px;
+}
+
+.qr-code img {
+    max-width: 150px;
+    height: auto;
+}
+#carouselExample .carousel-inner .carousel-item img {
+    width: 100%;  /* Asegura que la imagen ocupe todo el ancho del contenedor */
+    height: 300px;  /* Ajusta la altura según tus necesidades */
+    object-fit: cover;  /* Asegura que las imágenes no se deformen y cubran el área */
+}
+
+
+.header-gradient {
+    background: linear-gradient(to bottom, #ff0000, #ffffff);
+    /* Gradiente de rojo a blanco */
+    color: rgb(230, 227, 227);
+    /* Asegura que el texto sea legible */
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    /* Sombra para dar profundidad */
+}
+
+.footer-gradient {
+    background: linear-gradient(to right, #ff0000, #660000); /* Gradiente rojo oscuro */
+    color: white;
+    border-top: 4px solid #ffffff; /* Línea separadora */
+}
+
+.footer-gradient a {
+    transition: color 0.3s ease;
+}
+
+.footer-gradient a:hover {
+    color: #ffcccc; /* Color claro al pasar el mouse */
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cambiar el color del texto si es necesario */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Agregar sombra para mejorar la visibilidad */
+}
+
+
+

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="header-gradient py-3">
+        <div class="container">
+            <h1 class="text-center text-uppercase fw-bold m-0">Emerplus</h1>
+        </div>
+    </header>
+
+    <div class="container py-5">
+        <div class="row align-items-center">
+            <!-- Columna izquierda -->
+            <div class="col-md-4 text-center text-md-start info">
+                <h2 class="text-danger">¿Qué es Emerplus?</h2>
+                <p>Emerplus es una aplicación diseñada para conectarte rápidamente con servicios de emergencia como
+                    bomberos, policías y paramédicos.</p>
+                <p>Descárgala ahora para estar siempre preparado ante cualquier situación.</p>
+            </div>
+
+            <!-- Columna central (Carrusel) -->
+            <div class="col-md-4">
+                <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active position-relative">
+                            <img src="images/conexion.jpg" class="d-block w-100" alt="Emerplus App Screenshot 1">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Conexión con contactos de emergencia</h5>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="images/emergenciaRapida.webp" class="d-block w-100" alt="Emerplus App Screenshot 2">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Emergencia rápida</h5>
+                                <p>Solicita ayuda en situaciones de emergencia con un solo clic.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item position-relative">
+                            <img src="images/ubicacion precisa.avif" class="d-block w-100" alt="Emerplus App Screenshot 3">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Ubicación precisa</h5>
+                                <p>Obtén la ubicación exacta para enviar ayuda rápidamente.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            
+                <!-- Botón de descarga o QR -->
+                <div id="download-section" class="text-center mt-4"></div>
+            </div>
+            
+
+            <!-- Columna derecha -->
+            <div class="col-md-4 text-center text-md-start info mt-0 mt-sm-2">
+                <h2 class="text-danger">Características</h2>
+                <ul>
+                    <li>Notificaciones en tiempo real</li>
+                    <li>Geolocalización precisa</li>
+                    <li>Acceso a números de emergencia con un clic</li>
+                </ul>
+                <p>Emerplus te mantiene informado y conectado en momentos críticos.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="notification" class="position-fixed bottom-0 start-50 translate-middle-x p-3 d-none" style="z-index: 1050;">
+        <div class="toast align-items-center text-white bg-success border-0" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="d-flex">
+                <div class="toast-body">
+                    ¡La descarga ha comenzado!
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer-gradient text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Información de contacto -->
+                <div class="col-md-6 text-center text-md-start">
+                    <h5 class="fw-bold">Emerplus</h5>
+                    <p>Conéctate con servicios de emergencia al instante.</p>
+                    <p>Email: <a href="mailto:contacto@emerplus.com" class="text-white text-decoration-underline">contacto@emerplus.com</a></p>
+                </div>
+                <!-- Redes sociales -->
+                <div class="col-md-6 text-center text-md-end">
+                    <h5 class="fw-bold">Síguenos</h5>
+                    <a href="#" class="text-white mx-2" aria-label="Facebook">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+                    <a href="#" class="text-white mx-2" aria-label="Twitter">
+                        <i class="bi bi-twitter"></i>
+                    </a>
+                    <a href="#" class="text-white mx-2" aria-label="Instagram">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+                    <a href="#" class="text-white mx-2" aria-label="LinkedIn">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="landing.js"></script>
+</body>
+
+</html>
